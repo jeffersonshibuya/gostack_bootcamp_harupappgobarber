@@ -9,7 +9,6 @@ import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.soloader.SoLoader;
 import java.lang.reflect.InvocationTargetException;
-import com.microsoft.codepush.react.CodePush;
 import java.util.List;
 
 public class MainApplication extends Application implements ReactApplication {
@@ -19,11 +18,6 @@ public class MainApplication extends Application implements ReactApplication {
         @Override
         public boolean getUseDeveloperSupport() {
           return BuildConfig.DEBUG;
-        }
-
-        @Override
-        protected String getJSBundleFile() {
-          return CodePush.getJSBundleFile();
         }
 
         @Override
