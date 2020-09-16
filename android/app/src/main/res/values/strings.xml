@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">GoBarber</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">QsSwFt3ow7suxS4uG3A6zfeu7vHJbABL_7oB2</string>
 </resources>
